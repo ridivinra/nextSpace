@@ -17,4 +17,4 @@ export default async function About() {
             </p>
         </main>
     )
-}
+} 
