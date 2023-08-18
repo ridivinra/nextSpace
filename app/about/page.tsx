@@ -12,8 +12,11 @@ export default async function About() {
             <h1 >
                 About
             </h1>
+            <h3>
+                We are a social media platform.
+            </h3>
             <p>
-                This is the about page.
+                We are a social media platform. And specialise in social media.
             </p>
         </main>
     )
