@@ -17,8 +17,10 @@ const posts = [
     // Add more mock blog posts here
   ];
   
+import { getServerSession } from "next-auth";
 import { NextResponse } from "next/server";
 
-export function GET() {
+export async function GET() {
+    const session = await getServerSession();
     return NextResponse.json(posts);
 }
